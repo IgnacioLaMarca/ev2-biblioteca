@@ -1,0 +1,38 @@
+[
+  {
+    "model": "biblio.libro",
+    "pk": 1,
+    "fields": {
+      "titulo": "Cien años de soledad",
+      "autor": "Gabriel García Márquez",
+      "num_paginas": 417,
+      "copias_disponibles": 3
+    }
+  },
+  {
+    "model": "biblio.libro",
+    "pk": 2,
+    "fields": {
+      "titulo": "Don Quijote de la Mancha",
+      "autor": "Miguel de Cervantes",
+      "num_paginas": 863,
+      "copias_disponibles": 2
+    }
+  },
+  {
+    "model": "biblio.miembro",
+    "pk": 1,
+    "fields": {
+      "nombre": "Juan Pérez",
+      "numero_identificacion": "JP123"
+    }
+  },
+  {
+    "model": "biblio.biblioteca",
+    "pk": 1,
+    "fields": {
+      "nombre": "Biblioteca Central",
+      "direccion": "Av. Principal 123"
+    }
+  }
+]
